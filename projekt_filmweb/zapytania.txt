@@ -1,0 +1,21 @@
+Zapytania
+- wyświetl 2 dowolne tabele
+SELECT* FROM aktorzy, rezyserzy WHERE atorzy.id = rezyserzy.id   
+ 
+- wyświetl razem filmy i seriale razem tak żeby uzyskać same tytuły, gatunek i informacje czy jest o serial czy film
+SELECT filmy.tytul, gatunek.gatunek
+- Wyświetl tabelę filmy posortowane od najkrótszych do najdłuższych
+- Wyświetl tytuł serialu, kraj pochodzenia i ilość sezonów posortowane od największej liczby odcinków do najmniejszej
+- Wyświetl wyświetl tabelę aktorzy i reżyserzy pogrupuj ich według krajów i pokaż od najstarszych do najmłodszych
+- Wyświetl filmy i seriale dla których pole premiera jest puste, a następnie usuń te filmy
+- Wyświetl reżyserów i seriale dla których id jest większe niż 20 i mniejsze od 80 oraz gatunek jest równy fantastyka lub komedia
+- Policz jaki jest średni box office w USA i poza USA
+- Wyświetl filmy (tytuły filmu) które miały większy box office niż średni
+- Dodaj swoje imię i nazwisko do reżyserów i aktorów
+- Wyświetl tabele aktorzy i reżyserzy // każdą osobno
+- Usuń tabelę typ
+- usuń aktorów, reżyserów, seriale i filmy które mają rok premiery lub debiutu starsze niż 2012
+- Uaktualnij odpowiednie rekordy w filmy i seriale którym brakuje informacji w tabelach
+- wyszukaj wszystkich aktorów i reżyserów których nazwisko kończy się na ski a imię zaczyna się na A, M lub W
+SELECT * FROM aktorzy WHERE nazwwisko LIKE 'ski' AND imie LIKE 'a%' OR 'm%' OR 'w%'
+SELECT * FROM rezyserzy WHERE nazwisko LIKE 'ski' AND imie LIKE 'a%' OR 'm%' OR 'w%'

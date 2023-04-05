@@ -1,0 +1,28 @@
+html, body {
+    background-color: rgb(78, 78, 78);
+    width: 100vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+a{
+    background-color:rgb(143, 143, 143);
+    float:left;
+    color:rgb(0, 0, 0);
+    border-radius: 1rem;
+    padding: 3px;
+}
+.menu{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.tak{
+    font-size: 200%;
+    margin-left: 300px;
+    margin-top: 100px;
+    border-radius: 1rem;
+    background-color: rgb(143, 143, 143);
+    padding: 20px;
+    width: 1250px;
+    color:
+}
